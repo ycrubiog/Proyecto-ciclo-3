@@ -3,8 +3,12 @@
     padding-bottom: 6%;
 }
 
+body{
+    background-color: aliceblue;
+}
 
-titulo h1 {
+
+.titulo h1 {
         color: green;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
