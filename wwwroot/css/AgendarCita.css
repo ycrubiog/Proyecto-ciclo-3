@@ -1,16 +1,14 @@
-﻿.titulo{
+﻿.titulo {
     padding-top: 4%;
     padding-bottom: 6%;
-
 }
 
 
-.titulo h1{
+titulo h1 {
+        color: green;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.boton{
+.boton {
     padding-top: 4%;
 }
