@@ -7,21 +7,25 @@
 
 <div class="container">
     <div class="container container-fluid">
+        
         <div class="titulo">
         
-            <h1>
-                <span>Agendar Cita</span>
-            </h1>
+            <h2>
+                <span>Registro de Pacientes para agendar una cita</span>
+            </h2>
    
         </div>
 
+        <section class="parrafo">
+            <p>Ingrese los siguientes datos:</p>
+        </section>
         
         <form class="formulario" id="formulario">
             <div class="form-group row">
                 <label for="inputCedula1" class="col-sm-1 col-form-label">Cedula</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="inputCedula" placeholder="Cedula" required>
-                   
+                    <input type="number" class="form-control" id="inputCedula" placeholder="Cedula" required>
+
                 </div>
             </div>
             <div class="form-group row">
@@ -36,18 +40,19 @@
                 <label for="inputApellido1" class="col-sm-1 col-form-label">Apellido</label>
                 <div class="col-sm-5">
                     <input type="text" class="form-control" id="inputApellido" placeholder="Apellido" required>
-                    
+
                 </div>
             </div>
 
             <div class="form-group row">
                 <label for="inputTelefono1" class="col-sm-1 col-form-label">Telefono</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="inputTelefono" placeholder="Telefono" required>
-                  
+                    <input type="number" class="form-control" id="inputTelefono" placeholder="Telefono" required>
+
                 </div>
             </div>
-            <p id="advertencia">Parrafo</p>
+            <p id="alertaCel"></p>
+            <p id="alertaTel"></p>
 
             <div class="boton">
                 <div class="form-group row">

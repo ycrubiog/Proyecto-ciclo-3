@@ -9,8 +9,18 @@
     var telefono = formulario['inputTelefono'].value;
 
 
-    if (cedula.length < 10 | cedula.length) {
-        console.log("La longitud de la cedula debe tener 10 caracteres");
+
+
+    if (cedula.length < 10 | cedula.length > 10) {
+
+        var nota = "La longitud de la cedula debe ser de 10 caracteres";
+        const elemento = document.getElementById("alertaCel").innerHTML = nota;
     }
-    
+
+    if (telefono.length < 10 | telefono.length > 10) {
+
+         var nota = "La longitud del telefono debe ser de 10 caracteres";
+        const elemento = document.getElementById("alertaTel").innerHTML = nota;
+    }
+   
 }
