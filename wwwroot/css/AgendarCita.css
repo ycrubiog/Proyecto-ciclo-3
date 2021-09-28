@@ -4,19 +4,46 @@
 
 }
 
-body{
-    background-color: aliceblue;
+body {
+    background: linear-gradient(90deg, #6A3093 0%, #A044FF 100%);
+    
 }
 
+.textos {
+    
+    padding-top: 10%;
+    height: 100px;
+    width: 100%;
+  
 
+}
 .parrafo{
     font-size: 20px;
 }
-.titulo h2 {
-        color: black;
+h1 {
+        color: white;
+        font-size: 30px;
         
-    }
+}
 
-.boton {
-    padding-top: 4%;
+h2{
+    left: 400px;
+    color: white;
+    padding-top: 2%;
+    padding-left: 10%;
+    font-size: 25px;
+}
+
+#link {
+    padding-top: 2%;
+    padding-left: 17%;
+}
+
+
+.imagen {
+    position: absolute;
+    width: 513px;
+    height: 80%;
+    left: 50%;
+    top: 40px;
 }
