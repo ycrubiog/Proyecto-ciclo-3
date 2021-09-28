@@ -1,7 +1,7 @@
 ﻿function ValidarFormulario() {
 
     
-    var formulario = document.forms['formulario'];
+    const formulario = document.forms['formulario'];
 
     var cedula = formulario['inputCedula'].value;
     var nombre = formulario['inputNombre'].value;
@@ -20,7 +20,7 @@
     if (telefono.length < 10 | telefono.length > 10) {
 
          var nota = "La longitud del telefono debe ser de 10 caracteres";
-        const elemento = document.getElementById("alertaTel").innerHTML = nota;
+         const elemento = document.getElementById("alertaTel").innerHTML = nota;
     }
    
 }
