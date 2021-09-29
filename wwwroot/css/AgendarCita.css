@@ -1,6 +1,11 @@
-﻿formulario {
-    padding-top: 15%;
+﻿.formulario {
+    padding-top: 5%;
     height: 100px;
     width: 100%;
+    
+}
 
+h1{
+    font-size: 30px;
+    color: white;
 }
