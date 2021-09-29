@@ -12,5 +12,10 @@ namespace WebAppAgendarCitas.Controllers
         {
             return View();
         }
+
+        public IActionResult registro()
+        {
+            return View();
+        }
     }
 }
