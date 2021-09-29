@@ -9,3 +9,13 @@ h1{
     font-size: 30px;
     color: white;
 }
+
+.input {
+    position: absolute;
+    width: 181px;
+    height: 24px;
+    left: 165px;
+    top: 31px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}

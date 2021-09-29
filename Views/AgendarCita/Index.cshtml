@@ -8,5 +8,43 @@
 <div class="container">
     <div class="container-fluid">
         <h1 class="formulario">Registro de personas</h1>
+
+        <form id="formulario">
+            <div class="form-group row">
+                <div class="col-4">
+                    <input type="number" class="form-control" id="txtCedula" placeholder="Ingrese su cedula" required />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <input type="text" class="form-control" id="txtNombre" placeholder="Ingrese su nombre" required />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <input type="text" class="form-control" id="txtApellido" placeholder="Ingrese su apellido" required />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <input type="tel" class="form-control" id="txtTelefono" placeholder="Ingrese su telefono" required />
+                </div>
+            </div>
+
+            <div class="avisos">
+                <p></p>
+                <p></p>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" onclick="ValidarFormulario()" class="btn btn-primary">Registrar Paciente</button>
+
+                </div>
+            </div>
+
+        </form>
     </div>
 </div>
